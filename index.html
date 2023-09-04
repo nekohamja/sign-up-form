@@ -2,13 +2,21 @@
 <html lang="en">
   <head>
     <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sign Up Form</title>
   </head>
   <body>
-    <div class="bg-image"></div>
+    <div class="bg-image">
+      <div class="image-link">
+        Photo by <a href="https://unsplash.com/@sadswim">Ian Dooley </a>@
+        <a href="https://unsplash.com/photos/hpTH5b6mo2s">Unsplash</a>
+      </div>
+    </div>
     <div class="content">
+      <ion-icon name="airplane-sharp"></ion-icon>
+      <h1>Aerola™</h1>
       <h1>Traveling made more fun.</h1>
       <p>
         Creating an account is easy! Create now to join a vast community of
@@ -72,8 +80,18 @@
         </div>
       </form>
 
-      <button type="submit">Create Account</button>
-      <p>Already have an account? <a href="#">Login</a></p>
+      <button id="submit" type="submit">Create Account</button>
+      <p>Already have an account? <a class="login" href="#">Log in</a></p>
     </div>
+
+    <!-- icon -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
   </body>
 </html>
